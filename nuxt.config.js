@@ -34,6 +34,10 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  
+  plugins: [
+    { src: '~/plugins/myPlugin.js', ssr: false }
+  ]
 }
 
