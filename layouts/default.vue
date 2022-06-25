@@ -4,6 +4,22 @@
   </div>
 </template>
 
+<script>
+import '~/assets/css/app.css'
+import '~/assets/css/chunk.css'
+import '~/assets/css/iconfont.css'
+import '~/assets/css/main.css'
+
+import myheader from './myheader'
+import myfooter from './myfooter'
+export default {
+  components: {
+      myheader,myfooter
+    }
+  }
+</script>
+
+
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
